@@ -1,1 +1,54 @@
 /*stylesheet*/
+
+body {
+	font-family: Open Sans;
+	font-style: italic;
+}
+
+h1 {
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+
+
+}
+
+.content{
+	text-align: center;
+}
+
+.socialbuttons {
+	text-align: center;
+
+}
+
+.tickantel {
+	border-radius: 10px;
+	background-color: gray;
+	height: 45px;
+	width: auto;
+
+
+}
+
+.buttons {
+height: 50px;
+width: auto;
+
+} 
+
+.thumb {
+text-align: center; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
