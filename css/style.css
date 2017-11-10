@@ -2,7 +2,6 @@
 
 body {
 	font-family: Open Sans;
-	font-style: italic;
 }
 
 h1 {
@@ -13,9 +12,9 @@ h1 {
 
 }
 
-.content{
+/*.content{
 	text-align: center;
-}
+}*/
 
 .socialbuttons {
 	text-align: center;
@@ -42,42 +41,38 @@ text-align: center;
 
 }
 
-.colorbar1 {
+.disc {
 background-color: #8a9d88;
-border-radius: 10px;
-width: 100%
+
 }
 
-.colorbar2 {
+.splash {
 	background-color: #ffffff;
-	border-radius: 10px;
-	width: 100%
+
 
 }
 
-.colorbar3 {
+.bio {
 	background-color: #c1b795;
-	border-radius: 10px;
-	width: 100%
+
 
 
 }
 
-.section {
+.wrapper {
 max-width: 960px;
 margin: auto;
+width: 100%
+
 
 }
 
-ol {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
-}
 
+
+ol{
+	width: 250px;
+	margin: auto;
+}
 
 .thumb{
 
@@ -91,6 +86,7 @@ ol {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 
 
 
