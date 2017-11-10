@@ -68,3 +68,15 @@ ol {
 	width: 300px;
 	max-width: 100%;
 }
+
+.splash.section .thumb {
+	margin-bottom: 2rem;
+}
+
+.splash-image {
+	text-align: center;
+}
+
+.splash-image img {
+	max-width: 480px;
+}
