@@ -51,15 +51,6 @@ h1 {
 	box-sizing: border-box;
 }
 
-ol {
-	width: 250px;
-	margin: auto;
-}
-
-.disc.section ol {
-	margin-top: 2rem;
-}
-
 .thumb {
 	text-align: center;
 }
@@ -79,4 +70,29 @@ ol {
 
 .splash-image svg {
 	max-width: 480px;
+}
+
+.track-list {
+	margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+.track-list li {
+	margin-bottom: 1rem;
+}
+
+.track-list span.track-number {
+	margin-right: .25em;
+	font-weight: 700;
+}
+
+.track-list span.name {
+	margin-right: .25em;
+    color: #fff;
+}
+
+.track-list span.duration {
+    color: #6f433d;
 }
