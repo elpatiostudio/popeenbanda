@@ -35,8 +35,10 @@ h1 {
 	background-color: #8a9d88;
 }
 
-.splash {
-	background-color: #ffffff;
+.splash.section {
+    background: #000000 url("../images/pope-en-banda-trio-concierto.jpg") no-repeat center bottom; 
+    background-size: cover;
+    min-height: 56.25vw;
 }
 
 .bio {
