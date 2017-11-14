@@ -15,9 +15,10 @@ h1 {
 	text-align: center;
 }
 
+
 .tickantel {
-	border-radius: 10px;
-	background-color: gray;
+	border-radius: 20px;
+	background-color: #003073;
 	height: 45px;
 	width: auto;
 }
@@ -39,6 +40,8 @@ h1 {
     background: #000000 url("../images/pope-en-banda-trio-concierto.jpg") no-repeat center bottom; 
     background-size: cover;
     min-height: 56.25vw;
+    color:white;
+
 }
 
 .bio {
