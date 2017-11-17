@@ -41,6 +41,7 @@ h1 {
     background-size: cover;
     min-height: 56.25vw;
     color:white;
+    position: relative;
 
 }
 
@@ -100,4 +101,12 @@ h1 {
 
 .track-list span.duration {
     color: #6f433d;
+}
+
+.splash.section span {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.8;
+	padding: 5px;
 }
