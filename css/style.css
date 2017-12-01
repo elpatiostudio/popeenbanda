@@ -87,6 +87,7 @@ a {
 	}
 
 .track-list {
+	padding: 0;
 	margin: auto;
     margin-top: 2rem;
     text-align: center;
