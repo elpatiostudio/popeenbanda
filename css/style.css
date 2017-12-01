@@ -87,6 +87,7 @@ a {
 	}
 
 .track-list {
+	padding: 0;
 	margin: auto;
     margin-top: 2rem;
     text-align: center;
@@ -122,6 +123,23 @@ a {
 .splash .wrapper p {
 	text-align: center;
 	margin: 60px;
+	text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+}
+
+
+@media all and (max-width: 500px) {
+	.socialbuttons {
+		bottom: 30px;
+	}
+	.splash.section .copyright {
+		left: 0px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.splash .wrapper p {
+		text-align: center;
+		margin: 60px 0 120px;
+	}
 }
 
 <<<<<<< HEAD
