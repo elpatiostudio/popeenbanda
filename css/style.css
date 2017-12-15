@@ -78,6 +78,7 @@ a {
 }
 
 .main-image {
+	position: relative;
 	text-align: center;
 }
 
@@ -112,12 +113,16 @@ a {
     color: #6f433d;
 }
 
-.splash.section .copyright {
+.copyright-caption {
 	position: absolute;
-	opacity: .5;
+	color: #fff;
 	bottom: 0px;
 	right: 0px;
 	padding: 10px 15px;
+}
+
+.splash.section .copyright-caption {
+	opacity: .5;
 }
 
 .splash .wrapper p {
@@ -131,9 +136,8 @@ a {
 	.socialbuttons {
 		bottom: 30px;
 	}
-	.splash.section .copyright {
-		left: 0px;
-		text-align: center;
+	.copyright-caption {
+		right: 0px;
 		font-size: 12px;
 	}
 	.splash .wrapper p {
