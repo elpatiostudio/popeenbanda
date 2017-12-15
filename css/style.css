@@ -91,15 +91,19 @@ a:hover {
 		max-width: 100%;
 	}
 
+.ayui-logo {
+	text-align: center;
+}
+
 .track-list {
 	padding: 0;
-	margin: 2rem auto 3rem;
+	margin: 1rem auto 3rem;
     text-align: center;
     list-style-type: none;
 }
 
 .track-list li {
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .track-list span.track-number {
