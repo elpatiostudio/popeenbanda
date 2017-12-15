@@ -19,6 +19,10 @@ a {
 	color: #8a9d88;
 }
 
+a:hover {
+	color: #333;
+}
+
 .socialbuttons {
 	text-align: center;
 	position: absolute;
@@ -119,6 +123,15 @@ a {
 	right: 0px;
 	padding: 10px 15px;
 }
+
+	.copyright-caption a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.copyright-caption a:hover {
+		color: #ccc;
+	}
 
 .splash.section .copyright-caption {
 	opacity: .5;
