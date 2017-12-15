@@ -54,7 +54,7 @@ a:hover {
 .splash.section {
     background: #000 url("../images/pope-en-banda-trio-concierto.jpg") no-repeat center bottom;
     background-size: cover;
-    min-height: 56.25vw;
+    min-height: 50vw;
     color: white;
     position: relative;
 	box-sizing: border-box;
