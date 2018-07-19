@@ -1,3 +1,15 @@
+{% extends 'partials/base.html.twig' %} 
 {% block content %}
-    {{ page.content }}
+<div class="section {{ page.header.slug }}">
+    <div class="wrapper">
+        	<div style="text-align:center;">
+				<a style="text-decoration:none;"href="https://www.facebook.com/popeenbanda">{{ page.media['facebook.png'].resize(auto , 70) }}   </a>
+				<a style="text-decoration:none;"href="https://open.spotify.com/artist/0Is5TOy0KW82IPvNQYn1t3?si=XVL3mFvzTTGA11_y29p7lQ">{{ page.media['spotify.png'].resize(auto , 70).html('Foto de el trio "Pope en banda"') }}   </a>
+				<a style="text-decoration:none;"href="https://www.youtube.com/channel/UCegxiLab9qU-tEp1ljSVKkQ">{{ page.media['Youtube.png'].resize(auto , 70).html('Foto de el trio "Pope en banda"') }}</a>
+			</div>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/344379315&amp;color=%238a9d88&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+        <div class="socialbuttons">
+        </div>
+    </div>
+</div>
 {% endblock %}

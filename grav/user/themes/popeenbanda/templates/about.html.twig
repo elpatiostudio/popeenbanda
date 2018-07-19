@@ -1,3 +1,14 @@
+{% extends 'partials/base.html.twig' %} 
 {% block content %}
-    {{ page.content }}
+<div class="section {{ page.header.slug }}">
+    <div class="wrapper">
+        <div class="content">
+            <div class="main-image">
+				{{ page.media['pope-en-banda-trio.jpg'].html('Foto de el trio "Pope en banda"') }}	
+				<span class="copyright-caption">© <a href="http://www.carton.com.uy/" target="_blank">Cartón Estudio Gráfico</a></span>
+            </div>
+            {{ page.content }}
+        </div>
+    </div>
+</div>
 {% endblock %}
