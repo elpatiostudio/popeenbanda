@@ -43,16 +43,16 @@ a:hover {
 	width: auto;
 }
 
-.disc.section {
+.album.section {
 	background-color: #8a9d88;
 }
 
-.disc.section .main-image img {
+.album.section .main-image img {
 	width: 300px;
 }
 
 .splash.section {
-    background: #000 url("../images/pope-en-banda-trio-concierto.jpg") no-repeat center bottom;
+    background: #000 url("{{ showcase_image.url }}") no-repeat center bottom;
     background-size: cover;
     min-height: 50vw;
     color: white;
@@ -65,7 +65,7 @@ a:hover {
 }
 
 
-.bio {
+.about {
 	background-color: #ffffff;
 }
 
@@ -162,7 +162,7 @@ a:hover {
 	}
 }
 
-.soundcloudbar {
+.media {
 	background-color: #f5f5f5;
 }
 .main-footer {
