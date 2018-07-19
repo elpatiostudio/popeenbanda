@@ -1,0 +1,8 @@
+{% extends 'partials/base.html.twig' %} 
+{% block content %}
+	{% include 'splash.html.twig' with { page: page.find('/splash')} %}
+	{% include 'media.html.twig' with { page: page.find('/media')} %}
+	{% include 'album.html.twig' with { page: page.find('/album')} %}
+	{% include 'about.html.twig' with { page: page.find('/about')} %}
+{% endblock %}
+
