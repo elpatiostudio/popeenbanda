@@ -12,22 +12,20 @@
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
     {% block stylesheets %}
-        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
-        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/custom.css', 98) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 100) %}
     {% endblock %}
     {{ assets.js() }}
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body>
 
 {% block header %}
            {% block header_navigation %}
@@ -35,19 +33,10 @@
 {% endblock %}
 
 {% block body %}
-    <section id="body">
-        <div class="wrapper padding">
         {% block content %}{% endblock %}
-        </div>
-    </section>
 {% endblock %}
 
 {% block footer %}
-    <div class="footer text-center">
-        <div class="wrapper padding">
-	{% include 'footer.html.twig' with { page: page.find('/footer')} %}
-        </div>
-    </div>
 {% endblock %}
 
 {% block bottom %}
