@@ -1,7 +1,18 @@
-title: Pope En Banda 
+title: 'Pope En Banda'
+default_lang: es
 author:
-  name: Joe Bloggs
-  email: 'joe@example.com'
+  name: 'Ariel Pérez'
+  email: popeenbanda@gmail.com
+taxonomies:
+  - category
+  - tag
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+    'og:title': Pope En Banda
+    'og:type': Sitio Web
+    'og:url': https://www.popeenbanda.uy/
+    description: "“Pope en banda” es un trío semi acústico integrado por Ariel Pérez en guitarra y voz, Manuel Mendizabal en bajo eléctrico y Nacho Alonso en batería. Las canciones, todas compuestas por Ariel, transitan por géneros musicales nativos y fusiones."
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
