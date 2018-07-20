@@ -1,0 +1,22 @@
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        content:
+          type: tab
+          fields:
+             header.photo.copyright:
+              type: text
+              label: 'Photo Copyright'
+             header.menu:
+              type: text
+              label: 'Menu'
+             header.menu_de:
+              type: text
+              label: 'Menu de'

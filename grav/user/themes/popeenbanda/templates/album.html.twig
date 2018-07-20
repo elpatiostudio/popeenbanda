@@ -3,26 +3,18 @@
 <div class="section {{ page.header.slug }}">
     <div class="wrapper">
         <div class="main-image">
-        	{{ page.media['cover.jpg'].html('Tapa del disco Urvbanidad') }}
+            <img src="images/{{ page.header.cover|first.name }}">
         </div>
         <p class="ayui-logo">
-        	<a href="http://www.tacuabe.com/" target="_blank" title="Ayuí">
-				{{ page.media['ayui-logo.svg'].resize(28,28).html('logo discografica ayui') }}
-        	</a>
+        	<a href="{{ page.header.labelUrl }}" target="_blank" title="Ayuí">
+                <img style="height:33px;" src="images/{{ page.header.label|first.name }}">
         	</a>
         </p>
         <ol class="track-list">
-						<li><span class="track-number">1</span><span class="name">Guillermina.JPG</span><span class="duration">2:57</span></li>
-						<li><span class="track-number">2</span><span class="name">Anti anti</span><span class="duration">2:31</span></li>
-						<li><span class="track-number">3</span><span class="name">Bienvenida al mundo</span><span class="duration">3:18</span></li>
-						<li><span class="track-number">4</span><span class="name">Urvbanidad</span><span class="duration">3:01</span></li>
-						<li><span class="track-number">5</span><span class="name">Zamba de la Patria herida</span><span class="duration">3:25</span></li>
-						<li><span class="track-number">6</span><span class="name">Relaciones</span><span class="duration">3:12</span></li>
-						<li><span class="track-number">7</span><span class="name">Prospecto adjunto</span><span class="duration">2:39</span></li>
-						<li><span class="track-number">8</span><span class="name">Bolero volqueta</span><span class="duration">2:56</span></li>
-						<li><span class="track-number">9</span><span class="name">Capitalismo autobiográfico</span><span class="duration">2:49</span></li>
-						<li><span class="track-number">10</span><span class="name">Vidalita trueque</span><span class="duration">3:21</span></li>
-					</ol>
+					{% for track in page.header.tracklist %}
+                    <li><span class="track-number">{{ track.number }}</span><span class="name">{{ track.name }}</span><span class="duration">{{ track.minutes }}:{{ track.seconds }}</span></li>
+                    {% endfor %}
+                    </ol>
         <div class="content">
             {{ page.content }}
         </div>

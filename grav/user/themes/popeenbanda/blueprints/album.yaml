@@ -1,0 +1,64 @@
+'@extends':
+    type: default
+    context: blueprints://pages
+        
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        options:
+          unset@: true
+        advanced:
+          unset@: true
+        content:
+          fields:  
+            header.media_order:
+              unset@: true 
+        album:
+          ordering@: content
+          type: tab
+          title: Album
+          
+          fields:
+             header.tracklist:
+              name: tracklist
+              type: list
+              style: vertical
+              label: Tracklist
+              fields:
+                .number:
+                  type: int
+                  label: Song number
+                .name:
+                  type: Song title
+                  label: text
+                .minutes:
+                  type: int
+                  label: Duration in minutes
+                .seconds:
+                  type: int
+                  label: Duration in seconds  
+             header.cover:
+                  ordering@: header.media_order
+                  type: file
+                  label: Album cover
+                  destination: 'user/pages/images/'
+                  limit: 1
+                  avoid_overwriting: true
+                  accept:
+                    - image/*
+             header.label:
+                  ordering@: header.media_order
+                  type: file
+                  label: Label
+                  destination: 'user/pages/images/'
+                  limit: 1
+                  avoid_overwriting: true
+                  accept:
+                    - image/*
+             header.labelUrl:
+                  ordering@: header.label
+                  type: url
+                  label: Label url
