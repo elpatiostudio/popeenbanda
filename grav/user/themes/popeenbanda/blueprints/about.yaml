@@ -20,4 +20,4 @@ form:
               label: 'Photo Copyright'
              header.url.copyright:
               type: text
-              label: 'Url Copyright'
+              label: 'url Copyright'

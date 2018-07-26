@@ -13,11 +13,9 @@ form:
         advanced:
           unset@: true
         content:
+          unset@: true
           type: tab
           fields:
-             header.photo.copyright:
+             header.soundcloud:
               type: text
-              label: 'Photo Copyright'
-             header.url.copyright:
-              type: text
-              label: 'Url Copyright'
+              label: 'Soundcloud link'

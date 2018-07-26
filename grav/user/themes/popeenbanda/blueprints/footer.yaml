@@ -13,11 +13,11 @@ form:
         advanced:
           unset@: true
         content:
+          unset@: true
           type: tab
-          fields:
-             header.photo.copyright:
+          fields:  
+             header.media_order:
+              unset@: true  
+             header.contact:
               type: text
-              label: 'Photo Copyright'
-             header.url.copyright:
-              type: text
-              label: 'Url Copyright'
+              label: 'Contact'
