@@ -1,6 +1,6 @@
 ---
 title: splash
-media_order: background.jpg
+media_order: 'background.jpg,facebook.png,spotify.png,youtube.png'
 photo:
     copyright: 'Victoria Falkin'
 slug: splash
