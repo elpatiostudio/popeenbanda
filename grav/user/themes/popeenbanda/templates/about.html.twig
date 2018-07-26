@@ -5,7 +5,7 @@
         <div class="content">
             <div class="main-image">
 				{{ page.media['pope-en-banda-trio.jpg'].html('Foto de el trio "Pope en banda"') }}	
-				<span class="copyright-caption">© <a href="http://www.carton.com.uy/" target="_blank">Cartón Estudio Gráfico</a></span>
+				<span class="copyright-caption">© <a href="{{ page.header.url.copyright }}" target="_blank">{{ page.header.photo.copyright }}</a></span>
             </div>
             {{ page.content }}
         </div>

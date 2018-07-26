@@ -1,6 +1,10 @@
 ---
 title: about
 media_order: pope-en-banda-trio.jpg
+photo:
+    copyright: 'Cartón Estudio Gráfico'
+url:
+    copyright: 'http://www.carton.com.uy/'
 ---
 
 “Pope en banda” es un trío semi acústico integrado por Ariel Pérez en guitarra y voz, Manuel Mendizabal en bajo eléctrico y Nacho Alonso en batería. Las canciones, todas compuestas por Ariel, transitan por géneros musicales nativos y fusiones.  
