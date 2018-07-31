@@ -20,8 +20,8 @@
     {{ assets.css() }}
 
     {% block javascripts %}
+        {% do assets.addJs('theme://js/script.js') %}
     {% endblock %}
-    {{ assets.js() }}
 
 {% endblock head%}
 </head>
@@ -40,7 +40,7 @@
 {% endblock %}
 
 {% block bottom %}
-    {{ assets.js('bottom') }}
+    {{ assets.js() }}
 {% endblock %}
 
 </body>
